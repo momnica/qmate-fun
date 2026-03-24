@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import CodePage from "../pages/CodePage";
+import CodePage from "qmate-fun/src/pages/CodePage";
 
 export default function App() {
   return (
