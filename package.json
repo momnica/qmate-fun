@@ -1,10 +1,14 @@
 {
   "name": "qmate-cringe-demo",
+  "homepage": "https://momnica.github.io",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "react": "^18.2.0",
